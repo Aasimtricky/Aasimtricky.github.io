@@ -24,14 +24,14 @@ module.exports = {
     },
     extend: {
       colors: {
-        bg: "#260b44",
+        bg: "#010100",
         "fun-gray-light": "#b2bbcf",
         "fun-gray": "#7b89a8",
         "fun-gray-medium": "#767c85",
         "fun-gray-darker": "#2a2a2c",
         "fun-gray-dark": "#1F1F20",
         "fun-gray-darkest": "#141414",
-        "fun-pink": "#FAF0E6",
+        "fun-pink": "#e8d13d",
         "fun-pink-darker": "#000f2e",
         "fun-pink-darkest": "#000c24",
         "fun-pink-dark": "#192742",
