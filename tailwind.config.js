@@ -31,7 +31,7 @@ module.exports = {
         "fun-gray-darker": "#2a2a2c",
         "fun-gray-dark": "#1F1F20",
         "fun-gray-darkest": "#141414",
-        "fun-pink": "#FAF0E6",
+        "fun-pink": "#021618",
         "fun-pink-darker": "#000f2e",
         "fun-pink-darkest": "#000c24",
         "fun-pink-dark": "#192742",
