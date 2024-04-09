@@ -8,7 +8,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
       ? "Mohamed Aasim - Product Manager, Designer, Creator."
-      : `${currentPage} - BraydenTW.io`
+      : `${currentPage} - mohamedaasim.vercel.app`
   }`;
   console.log(currentPage);
   return (
@@ -41,7 +41,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <meta name="description" content={desc} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://braydentw.io/" />
+        <meta property="og:url" content="https://mohamedaasim.vercel.app/" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={desc} />
         <meta
