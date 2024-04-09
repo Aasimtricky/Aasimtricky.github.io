@@ -37,7 +37,7 @@ function Navbar({ currentPage }) {
           return (
             <li
               key={index}
-              className={`list-none text-yellow ${
+              className={`list-none text-white ${
                 currentPage === item.title
                   ? "opacity-100"
                   : "opacity-40 hover:opacity-100 transition-opacity"
