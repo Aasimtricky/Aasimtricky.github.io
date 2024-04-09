@@ -7,28 +7,34 @@ function Navbar({ currentPage }) {
     <nav className="flex items-center justify-between">
       <li className="list-none font-bold text-lg cursor-pointer">
         <Link href="/">
-          <span className="font-black text-xl flex items-center">
+          <span className="font-black text-xl text-black flex items-center">
             <img
               className="mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
               src="/static/logos/logo_no_text.svg"
               width="60"
             />
-{"Mohamed Aasim".split("").map((letter, index) => {
-  // Check if the current letter is the last letter of "Mohamed"
-  if (index === 6) {
-    return (
-      <span key={index} className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim">
-        {letter}&nbsp; {/* Add a space */}
-      </span>
-    );
-  } else {
-    return (
-      <span key={index} className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim">
-        {letter}
-      </span>
-    );
-  }
-})}
+            {"Mohamed Aasim".split("").map((letter, index) => {
+              // Check if the current letter is the last letter of "Mohamed"
+              if (index === 6) {
+                return (
+                  <span
+                    key={index}
+                    className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
+                  >
+                    {letter}&nbsp; {/* Add a space */}
+                  </span>
+                );
+              } else {
+                return (
+                  <span
+                    key={index}
+                    className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
+                  >
+                    {letter}
+                  </span>
+                );
+              }
+            })}
           </span>
         </Link>
       </li>
