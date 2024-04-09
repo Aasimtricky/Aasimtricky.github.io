@@ -63,7 +63,7 @@ export default function MobileNavbar() {
           {routes.map((item, index) => {
             return (
               <li
-                className="border-b border-gray-900 text-gray-100 text-sm font-semibold"
+                className="border-b border-gray-900 text-gray-100 text-sm font-semibold text-black"
                 style={{ transitionDelay: `${150 + index * 25}ms` }}
               >
                 <Link href={item.path}>
