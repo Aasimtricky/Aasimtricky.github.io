@@ -16,7 +16,7 @@ function Footer() {
               <div>
                 {item.links.map((item, index) => {
                   return (
-                    <div key={index} className="my-4">
+                    <div key={index} className="my-4 text-black">
                       {item.leavesWebsite ? (
                         <a
                           href={item.link}
@@ -112,30 +112,14 @@ function Footer() {
           <div className="mt-2 text-xs ">
             Made by{" "}
             <a
-              href="mailto:contact@braydentw.io"
+              href="mailto:aazi.razan@gmail.com"
               className="text-fun-gray-light font-medium"
             >
-              Brayden Wright
+              Mohamed Aasim
             </a>
             . All rights reserved.
           </div>
         </p>
-      </div>
-      <div className="mt-8 text-center sm:text-right sm:-mt-12">
-        <a
-          className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
-          href="https://github.com/braydentw/braydentw.io"
-          target="_blank"
-          rel="nooreferrer"
-        >
-          <Image
-            src="/static/icons/github.svg"
-            width={16}
-            height={16}
-            alt="Github Icon"
-          />
-          <span className="ml-2">View Source Code </span>
-        </a>
       </div>
     </footer>
   );
