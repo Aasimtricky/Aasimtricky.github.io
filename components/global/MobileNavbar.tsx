@@ -81,7 +81,7 @@ export default function MobileNavbar() {
 function MenuIcon(props) {
   return (
     <svg
-      className="h-5 w-5 absolute text-gray-100"
+      className="h-5 w-5 absolute text-black"
       width="20"
       height="20"
       viewBox="0 0 20 20"
