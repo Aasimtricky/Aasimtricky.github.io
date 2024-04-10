@@ -11,7 +11,7 @@ function Testimonials() {
           return (
             <div
               key={index}
-              className="relative bg-fun-pink-darker border border-fun-pink-light p-5 rounded-lg h-full flex flex-col justify-between"
+              className="relative bg-fun-pink border border-fun-pink-light p-5 rounded-lg h-full flex flex-col justify-between"
             >
               {index === 0 && (
                 <>
