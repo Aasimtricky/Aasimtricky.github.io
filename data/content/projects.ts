@@ -24,7 +24,7 @@ const projects: Project[] = [
     title: "Marker Man",
     desc: "Platformer game with sketch art style",
     img: "/static/projects/markerman.png",
-    link: "https://react-emoji-search.braydentw.vercel.app/",
+    link: "https://antelope-games.itch.io/marker-man",
     github: "https://github.com/braydentw/react-emoji-search",
     tags: ["React", "CSS", "JSON"],
   },
