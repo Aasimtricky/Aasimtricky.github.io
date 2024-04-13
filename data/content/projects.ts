@@ -9,7 +9,7 @@ const projects: Project[] = [
     img: "/static/projects/hardwareshack.png",
     link: "https://hardwareshack.in/",
     github: "https://github.com/braydentw/learn.theyei",
-    tags: ["React", "NextJS", "TailwindCSS", "CSS", "Firebase"],
+    tags: ["SEO", "E-commerce management", "Data Analysis", "User Acquisition", "Brand development"],
   },
   {
     id: 1,
@@ -17,7 +17,7 @@ const projects: Project[] = [
     desc: "Research on marketing strategies to attract and engage new users more effectively.",
     img: "/static/projects/hulu.png",
     link: "#",
-    tags: ["HTML", "CSS", "Javascript", "Gumroad"],
+    tags: ["Competitive analysis", "Growth Hacking", "Performance metrics", "Retention Strategies"],
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const projects: Project[] = [
     img: "/static/projects/markerman.png",
     link: "https://antelope-games.itch.io/marker-man",
     github: "https://github.com/braydentw/react-emoji-search",
-    tags: ["React", "CSS", "JSON"],
+    tags: ["Agile", "Roadmapping", "UI/UX Oversight", "Product strategy", "Feature Prioritization"],
   },
   {
     id: 3,
