@@ -7,22 +7,22 @@ type Design = {
 export const designs: Design[] = [
   {
     label: "Mobile Shopping App",
-    img: "/static/designs/mobile-shopping-app.jpg",
+    img: "/static/designs/SixSigmaWhiteBelt.webp",
     link: "https://dribbble.com/shots/9458498-Mobile-Shopping-App",
   },
   {
     label: "Modern App Design",
-    img: "/static/designs/modern-app-design.png",
+    img: "/static/designs/GenAIforPM.webp",
     link: "https://dribbble.com/shots/15485626-Modern-App-Design",
   },
   {
     label: "Landing Pages for Startups - Concept",
-    img: "/static/designs/startup-landing-pages.png",
+    img: "/static/designs/UXDesignCalArts.webp",
     link: "https://dribbble.com/shots/15485635-Landing-Pages-for-Startups-Concept",
   },
   {
     label: "Luxury, Blue Portfolio",
-    img: "/static/designs/luxury-blue-portfolio.png",
+    img: "/static/designs/GoogleDigitalMarketing.webp",
     link: "https://dribbble.com/shots/15165547-Luxury-Blue-Portfolio",
   },
   {
