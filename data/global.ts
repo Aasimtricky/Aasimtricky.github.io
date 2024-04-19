@@ -73,32 +73,20 @@ export const footer: Footer = {
       title: "Social",
       links: [
         {
-          name: "GitHub",
-          link: "https://github.com/braydentw",
-          icon: "/static/icons/github-f.svg",
-          leavesWebsite: true,
-        },
-        {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/braydentw/",
+          link: "https://www.linkedin.com/in/mdaasim07/",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
         {
-          name: "Dribbble",
-          link: "https://dribbble.com/braydentw",
-          icon: "/static/icons/dribbble-f.svg",
-          leavesWebsite: true,
-        },
-        {
-          name: "IndieHackers",
-          link: "https://indiehackers.com/braydentw",
-          icon: "/static/icons/indiehackers-f.svg",
+          name: "Github",
+          link: "https://github.com/Aasimtricky",
+          icon: "/static/icons/github-f.svg",
           leavesWebsite: true,
         },
         {
           name: "Email",
-          link: "mailto:contact@braydentw.io",
+          link: "mailto:aazi.razan@gmail.com",
           icon: "/static/icons/mail-f.svg",
           leavesWebsite: true,
         },

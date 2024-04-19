@@ -47,28 +47,7 @@ function Footer() {
           <div className="space-y-2 mt-4 w-full flex items-center sm:items-start flex-col">
             {footer.support.buymeacoffee !== "" && (
               <div>
-                <a
-                  href={`https://buymeacoffee.com/${footer.support.buymeacoffee}`}
-                  target="_blank"
-                >
-                  <img
-                    src="/static/misc/buy-me-a-coffee.svg"
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                  />
-                </a>
-              </div>
-            )}
-            {footer.support.paypal !== "" && (
-              <div>
-                <a
-                  href={`https://paypal.me/${footer.support.paypal}`}
-                  target="_blank"
-                >
-                  <img
-                    src="/static/misc/paypal.svg"
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                  />
-                </a>
+                
               </div>
             )}
             <p className="text-fun-gray text-xs pt-1">
