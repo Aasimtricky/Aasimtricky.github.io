@@ -1,45 +1,32 @@
 import React from "react";
 import SectionTitle from "../global/SectionTitle";
-import { testimonials } from "@/data/content/home";
 
-function Testimonials() {
+function About() {
   return (
     <div className="flex flex-col text-left max-w-md md:max-w-full w-full m-auto text-black">
-      <SectionTitle title="Why people love my work!" />
-      <div className="max-w-5xl m-auto md:max-h-[200px] grid grid-cols-1 gap-10 md:gap-10 md:grid-cols-3 items-start">
-        {testimonials.map((item, index) => {
-          return (
-            <div
-              key={index}
-              className="relative bg-fun-pink border border-fun-pink-light p-5 rounded-lg h-full flex flex-col justify-between"
-            >
-              {index === 0 && (
-                <>
-                  <img
-                    className="sqD top-[-50px] left-0 bottom-auto right-auto md:bottom-[-50px] md:top-auto md:right-[-25px] md:left-auto w-20 z-[-100]"
-                    src="/static/doodles/testimonials/yay.svg"
-                  />
-                </>
-              )}
-              <p className="text-base italic relative testimonialQuote">
-                "{item.quote}"
-              </p>
-              <p className="mt-4 text-xs text-fun-gray">
-                <b className="text-fun-pink font-monospace">{item.name}</b> -{" "}
-                {item.job}
-              </p>
-              {index === 2 && (
-                <img
-                  className="sqD top-[-30px] right-[-15px] w-11"
-                  src="/static/doodles/testimonials/squiggle2.svg"
-                />
-              )}
-            </div>
-          );
-        })}
+      <SectionTitle title="About Me" />
+      <div className="flex flex-col md:flex-row max-w-5xl m-auto p-5">
+        <div className="md:flex-1">
+          <img
+            src="/static/misc/aasimlinkedin.png"  // Update with your image path
+            alt="Your Name"
+            className="rounded-lg w-full md:w-3/4 mx-auto mb-4 md:mb-0"
+          />
+        </div>
+        <div className="md:flex-1 bg-fun-pink border border-fun-pink-light rounded-lg p-5 flex flex-col justify-center">
+          <p className="text-base">
+            I am a passionate and dedicated professional with a keen interest in web development. With several years of experience in the field, I specialize in creating seamless and dynamic user experiences.
+          </p>
+          <p className="mt-4 text-xs text-fun-gray">
+            Based in [Your City], I work with a wide range of clients to bring their digital projects to life, ensuring high-quality results and innovative solutions.
+          </p>
+          <p className="mt-2 text-xs text-fun-gray">
+            I'm always open to discussing new projects or opportunities to collaborate. Feel free to reach out!
+          </p>
+        </div>
       </div>
     </div>
   );
 }
 
-export default Testimonials;
+export default About;
