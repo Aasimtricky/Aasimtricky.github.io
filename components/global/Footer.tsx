@@ -42,7 +42,7 @@ function Footer() {
         })}
         <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
           <h4 className="uppercase text-fun-gray text-sm font-bold">
-            Support My Work
+            THANKS
           </h4>
           <div className="space-y-2 mt-4 w-full flex items-center sm:items-start flex-col">
             {footer.support.buymeacoffee !== "" && (
