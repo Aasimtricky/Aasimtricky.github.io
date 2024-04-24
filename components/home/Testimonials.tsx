@@ -1,3 +1,6 @@
+import React from "react";
+import SectionTitle from "../global/SectionTitle";
+
 function About() {
   return (
     <div className="flex flex-col text-left max-w-md md:max-w-full w-full m-auto text-black">
@@ -28,3 +31,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
