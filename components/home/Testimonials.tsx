@@ -19,18 +19,9 @@ function About() {
           <p className="mt-4 text-xs text-fun-gray">
           Beyond the technical expertise, my real passion lies in connecting with people. Whether it’s by creating memorable product experiences or simply sharing a moment of joy, I value every interaction. My approach to product management is driven by an insatiable curiosity, deep empathy, and an eagerness to continuously learn and grow. In my free time, I enjoy playing cricket, which not only keeps me active but also sharpens my team-building skills. Let's connect and make something impactful together!
           </p>
-<<<<<<< HEAD
-          <button
-            className="mt-4 py-2 px-5 bg-fun-gray hover:bg-fun-gray-dark text-white font-bold rounded-lg transition-colors"
-            onClick={() => window.location.href='/static/misc/resume.pdf'} // Update with the actual path to your resume
-          >
-            Download Resume
-          </button>
-=======
           <p className="mt-2 text-xs text-fun-gray">
             I'm always open to discussing new projects or opportunities to collaborate. Feel free to reach out!
           </p>
->>>>>>> parent of d9097f3 (Update Testimonials.tsx)
         </div>
       </div>
     </div>
