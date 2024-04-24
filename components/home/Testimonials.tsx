@@ -19,6 +19,12 @@ function About() {
           <p className="mt-4 text-base text-black">
           Beyond the technical expertise, my real passion lies in connecting with people. Whether it’s by creating memorable product experiences or simply sharing a moment of joy, I value every interaction. My approach to product management is driven by an insatiable curiosity, deep empathy, and an eagerness to continuously learn and grow. In my free time, I enjoy playing cricket, which not only keeps me active but also sharpens my team-building skills. Let's connect and make something impactful together!
           </p>
+          <button
+            className="mt-4 py-2 px-5 bg-fun-gray-dark hover:bg-fun-gray-darkest text-white font-bold rounded-lg transition-colors"
+            onClick={() => window.location.href='/static/misc/resume.pdf'} // Update with the actual path to your resume
+          >
+            Download Resume
+          </button>
         </div>
       </div>
     </div>
