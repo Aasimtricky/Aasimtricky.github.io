@@ -49,8 +49,8 @@ export const skills: Skill[] = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg",
   },
   {
-    title: "Asana",
-    icon: "https://www.svgrepo.com/show/473547/asana.svg",
+    title: "Tableau",
+    icon: "https://www.svgrepo.com/show/354428/tableau-icon.svg",
   },
   {
     title: "Crunchbase",
