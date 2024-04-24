@@ -1,6 +1,3 @@
-import React from "react";
-import SectionTitle from "../global/SectionTitle";
-
 function About() {
   return (
     <div className="flex flex-col text-left max-w-md md:max-w-full w-full m-auto text-black">
@@ -9,7 +6,7 @@ function About() {
         <div className="md:flex-1">
           <img
             src="/static/misc/aasimlinkedin.png"  // Update with your image path
-            alt="Your Name"
+            alt="Mohamed Aasim"
             className="rounded-lg w-full md:w-3/4 mx-auto mb-4 md:mb-0"
           />
         </div>
@@ -22,7 +19,7 @@ function About() {
           </p>
           <button
             className="mt-4 py-2 px-5 bg-fun-gray hover:bg-fun-gray-dark text-white font-bold rounded-lg transition-colors"
-            onClick={() => window.location.href='/path/to/your-resume.pdf'} // Update with the actual path to your resume
+            onClick={() => window.location.href='/static/misc/resume.pdf'} // Update with the actual path to your resume
           >
             Download Resume
           </button>
@@ -31,5 +28,3 @@ function About() {
     </div>
   );
 }
-
-export default About;
