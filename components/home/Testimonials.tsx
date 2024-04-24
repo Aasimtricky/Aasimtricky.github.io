@@ -20,12 +20,18 @@ function About() {
           <p className="mt-4 text-xs text-fun-gray">
             Based in [Your City], I work with a wide range of clients to bring their digital projects to life, ensuring high-quality results and innovative solutions.
           </p>
+<<<<<<< HEAD
           <button
             className="mt-4 py-2 px-5 bg-fun-gray hover:bg-fun-gray-dark text-white font-bold rounded-lg transition-colors"
             onClick={() => window.location.href='/static/misc/resume.pdf'} // Update with the actual path to your resume
           >
             Download Resume
           </button>
+=======
+          <p className="mt-2 text-xs text-fun-gray">
+            I'm always open to discussing new projects or opportunities to collaborate. Feel free to reach out!
+          </p>
+>>>>>>> parent of d9097f3 (Update Testimonials.tsx)
         </div>
       </div>
     </div>
