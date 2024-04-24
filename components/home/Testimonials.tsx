@@ -15,10 +15,9 @@ function About() {
         </div>
         <div className="md:flex-1 bg-fun-pink border border-fun-pink-light rounded-lg p-5 flex flex-col justify-center">
           <p className="text-base">
-            I am a passionate and dedicated professional with a keen interest in web development. With several years of experience in the field, I specialize in creating seamless and dynamic user experiences.
-          </p>
+          I'm currently based in New York, exploring career opportunities across the USA. With extensive experience in project management and UI/UX design, I have successfully led a variety of projects in sectors ranging from websites and games to healthcare and e-commerce. I am also advancing my skills through a Master’s in Social Media and Mobile Marketing at Pace University.          </p>
           <p className="mt-4 text-xs text-fun-gray">
-            Based in [Your City], I work with a wide range of clients to bring their digital projects to life, ensuring high-quality results and innovative solutions.
+          Beyond the technical expertise, my real passion lies in connecting with people. Whether it’s by creating memorable product experiences or simply sharing a moment of joy, I value every interaction. My approach to product management is driven by an insatiable curiosity, deep empathy, and an eagerness to continuously learn and grow. In my free time, I enjoy playing cricket, which not only keeps me active but also sharpens my team-building skills. Let's connect and make something impactful together!
           </p>
 <<<<<<< HEAD
           <button
