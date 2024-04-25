@@ -8,7 +8,6 @@ const projects: Project[] = [
     desc: "Created India's Biggest Hardware online store.",
     img: "/static/projects/hardwareshack.png",
     link: "https://hardwareshack.in/",
-    github: "https://github.com/braydentw/learn.theyei",
     tags: ["SEO", "E-commerce management", "Data Analysis", "User Acquisition", "Brand development"],
   },
   {
@@ -25,15 +24,14 @@ const projects: Project[] = [
     desc: "Platformer game with sketch art style",
     img: "/static/projects/markerman.png",
     link: "https://antelope-games.itch.io/marker-man",
-    github: "https://github.com/braydentw/react-emoji-search",
     tags: ["Agile", "Roadmapping", "UI/UX Oversight", "Product strategy", "Feature Prioritization"],
   },
   {
     id: 3,
-    title: "BitcoinTemp",
+    title: "Ambur Online",
     desc: "A fun way to check the price of bitcoin! Cloudy days, sunny days, and Bitcoin Storms!",
-    img: "/static/projects/bitcointemp.png",
-    link: "https://bitcointemp.com",
+    img: "/static/projects/amburonline.png",
+    link: "https://amburonline.in",
     tags: ["React", "NextJS", "SCSS", "API"],
   },
   {

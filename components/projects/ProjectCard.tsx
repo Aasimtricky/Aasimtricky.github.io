@@ -6,7 +6,7 @@ import Link from "next/link";
 function ProjectCard({ project }) {
   return (
     <div
-      className="max-w-sm mx-auto flex flex-col projects-center md:projects-start md:justify-center"
+      className="max-w-sm mx-auto flex flex-col projects-center md:projects-start md:justify-center text-black"
       key={project.id}
     >
       <a
